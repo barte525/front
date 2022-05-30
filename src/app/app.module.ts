@@ -8,13 +8,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { MenuComponent } from './menu/menu.component';
 import { AlertsComponent } from './alerts/alerts.component';
 import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AssetsListComponent,
     MenuComponent,
-    AlertsComponent
+    AlertsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
